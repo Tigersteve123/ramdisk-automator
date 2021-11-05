@@ -9,4 +9,4 @@ echo "Size (MB): "
 read SIZE
 SIZE=$((SIZE*1000000))
 
-mount -t tmpfs -o size=$SIZE ramdisk /tmp/ramdisk
+sudo mount -t tmpfs -o size=$SIZE ramdisk /tmp/ramdisk
